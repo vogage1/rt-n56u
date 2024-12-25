@@ -1,21 +1,21 @@
 /* PSG1208 */
 
-#define BOARD_PID		"PSG1208"
-#define BOARD_NAME		"PSG1208"
-#define BOARD_DESC		"PHICOMM PSG1208 Wireless Router"
-#define BOARD_VENDOR_NAME	"PHICOMM"
-#define BOARD_VENDOR_URL	"http://www.phicomm.com/"
-#define BOARD_MODEL_URL		"http://www.phicomm.com/"
+#define BOARD_PID		"WNY"
+#define BOARD_NAME		"WNY"
+#define BOARD_DESC		"WNY Wireless Router"
+#define BOARD_VENDOR_NAME	"WNY"
+#define BOARD_VENDOR_URL	"http://www.VOGAGE.com/"
+#define BOARD_MODEL_URL		"http://www.VOGAGE.com/"
 #define BOARD_BOOT_TIME		25
 #define BOARD_FLASH_TIME	120
-#define BOARD_GPIO_BTN_RESET	1
+#define BOARD_GPIO_BTN_RESET	11
 #undef  BOARD_GPIO_BTN_WPS
 #undef  BOARD_GPIO_LED_ALL
 #define  BOARD_GPIO_LED_WIFI	72
-#undef  BOARD_GPIO_LED_POWER
-#undef  BOARD_GPIO_LED_LAN
+#undef  BOARD_GPIO_LED_POWER	72
+#undef  BOARD_GPIO_LED_LAN	0
 #undef  BOARD_GPIO_LED_WAN
-#undef  BOARD_GPIO_LED_USB
+#undef  BOARD_GPIO_LED_USB	
 #undef  BOARD_GPIO_PWR_USB
 #define BOARD_GPIO_LED_ROUTER	39
 #define BOARD_HAS_5G_11AC	1
